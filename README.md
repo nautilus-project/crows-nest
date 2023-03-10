@@ -1,38 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Crows Nest 🏴‍☠️
 
-## Getting Started
+An SQL-like graphical user interface for your Solana Program accounts built initially for Nautilus.
+Crow's Nest supports any Anchor/Shank Programs that have generated [Solita](https://github.com/metaplex-foundation/solita) Types.
 
-First, run the development server:
+## Roadmap
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+```
+✅ - GUI
+✅ - Read Accounts
+𐄂 - Write/Create for Accounts ( Nautilus only )
+𐄂 - Storage Buckets ( Nautilus only )
+𐄂 - Foreign Key Relationships
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Get started with Crow's Nest 🚀
+`git clone https://github.com/nautilus-project/crows-nest.git`
+Now, generate Solita Types for your program and add them into `src/`
+Then run `yarn dev`
+___
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How does the GUI look like ? ✨
+![Crow's Nest](https://raw.githubusercontent.com/nautilus-project/crows-nest/demo/Screenshot%202023-03-10%20at%2021.06.45.png)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## I want to contribute !
+Feel free to attack anything you think Crow's Nest could benefit from. Feel free to open issues/PRs.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
