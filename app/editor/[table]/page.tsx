@@ -105,6 +105,16 @@ const EditorPage = ({
                               </td>
                             );
                           }
+                          if (
+                            account.data[key].constructor.name === "boolean"
+                          ) {
+                            // if it is a public key, return the base58 string
+                            return (
+                              <td className="px-6 py-4" key={account.data[key]}>
+                                {account.data[key] ? "true" : "false"}
+                              </td>
+                            );
+                          }
                           // if it is a bignumber, convert it from an i64 to a number
                           if (account.data[key].constructor.name === "BN") {
                             return (
